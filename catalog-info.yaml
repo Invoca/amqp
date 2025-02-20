@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: amqp
+  title: Amqp
+  description: Mature EventMachine-based RabbitMQ client
+  tags:
+    - ruby
+    - gem
+    - public
+  annotations:
+    buildkite.com/project-slug: Invoca/amqp
+    github.com/project-slug: Invoca/amqp
+    invoca.com/version-repository-location: rubygems
+    invoca.com/version-repository-name: amqp
+spec:
+  type: library
+  lifecycle: production
+  owner: octothorpe
+  dependsOn: []
